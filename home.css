@@ -1,0 +1,257 @@
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    ;
+}.grids{
+    display: grid;
+    grid-template-areas: 
+                        " nav main aside";
+    grid-template-columns: 320px 1fr 445.7px;
+    
+
+}
+.grids>nav{
+    grid-template-areas: nav;
+    border: 1px solid #F3F4F6;
+}
+.grids>main{
+    grid-template-areas: main;
+    border: 1px solid #F3F4F6;
+}
+.grids>aside{
+    grid-template-areas: aside;
+    border: 1px solid #F3F4F6;
+}
+.tweet{
+    font-size: 28px;
+    color: #3B82F6;
+    margin-left: 55px;
+    margin-top: 10px;
+    padding: 8px;
+
+    /* Home */
+}
+.tweet:hover{
+    background-color:whitesmoke;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.home{
+    /* font-size: 22px; */
+    margin-left: 48px;
+    margin-top: 6px;
+    padding:13px;
+    font-weight: 600;
+    
+}
+.home:hover{
+    background-color: #BFDBFE;
+    width: 100px;
+   border-radius: 30px;
+   cursor: pointer;
+   color:#3B82F6 ;
+
+}
+.text{
+   
+    margin-left: 21px;
+}
+
+.common{
+    /* font-size: 22px; */
+    margin-left: 52px;
+    padding: 13px;
+    font-weight: 600;
+}
+.common:hover{
+    border-radius: 30px;
+    background-color: #BFDBFE;
+    cursor: pointer;
+    color:#3B82F6 ;
+    display: inline-block;
+   
+}
+/* Explore */
+.textExplore{
+    margin-left: 24px;
+
+}
+.textNotify{
+    margin-left: 24px;
+}
+
+.textmsg{
+    margin-left: 22px;
+}
+.textMark{
+    margin-left: 28px;
+}
+.textList{
+    margin-left: 28px;
+}
+.textProfile{
+    margin-left: 26px;
+}
+.textMore{
+    margin-left: 24px;
+}
+.button{
+    font-size: 15px;
+    border-radius: 30px;
+    margin-left: 55px;
+    padding: 15px 90px;
+   color: rgb(255, 255, 255);;
+   background-color: rgb(29, 161, 242);
+   margin-top: 6px;
+   border: none;
+   font-weight: 700;
+}
+.button:hover{
+    cursor: pointer;
+}
+/* username */
+
+.avatar {
+    margin-top: 52px;
+    margin-left: 60px;
+    height: 40px;
+    border-radius: 50%;
+    width: 40px;
+    padding: 0.5rem;
+    position: relative;
+    display: inline-block;
+}
+.parent{
+    margin-left: 120px;
+    margin-bottom: 90px;
+    position: absolute;
+    bottom: -70px;
+    /* display: inline-block; */
+}
+.name{
+    font-weight: 600;
+    font-size: 15px;
+    display: 
+    inline-block;
+}
+.uname{
+    font-size: 15px;
+}
+.user{
+    display: inline-block;
+}
+.user:hover{
+    border-radius: 30px;
+    background-color: #BFDBFE;
+    cursor: pointer;
+    color:#3B82F6 ;
+    /* display: inline-block; */
+
+}
+/* Search */
+.input{
+    margin-top: 5px;
+    margin-left: 28px;
+    padding: 15px ;
+    border-radius: 30px;
+    width: 315px;
+    background-color: whitesmoke;
+    border: none;
+    text-decoration: none;
+}
+
+/*Trending Block  */
+.mains {
+    border-radius: 17px;
+    width: 339px;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+    margin-top: 12px;
+
+}
+.border{
+    border: 1px solid #D1D5DB;
+}
+.notification{
+    /* margin-left: 19px; */
+    padding-left: 19px;
+    display: inline-block;
+
+}
+.notification:hover{
+    /* margin-left: 0px; */
+    background-color: #D1D5DB;
+}
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+   height: 16px;
+}
+.small{
+    font-size: 5px;
+    height: 1px;
+}
+.notification >p{
+    font-size: 18px;
+    display: inline-block;
+}
+.notification >small{
+    font-size: 12px;
+    display: inline-block;
+
+}
+.notification >i{
+    float: right;
+    margin-right: 2px;
+    margin-top: 3px;
+
+}
+.notification >span{
+    font-size: 18px;
+    font-weight: bold;
+   
+
+}
+
+.link{
+    text-decoration: none;
+    color: blue;
+}
+/* Follow */
+.butn {
+    border-radius: 40px;
+    text-decoration: none;
+    color: blue;
+    border-color: blue;
+    padding: 8px 18px;
+    /* margin-left: 190px; */
+    display: inline-block;
+}
+.button-primary:hover {
+    background-color:#D1D5DB;
+}
+#cross{
+    margin-top: 14px;
+    margin-left: 10px;
+}
+#Button{
+    display: inline-block;
+}
+.mada{
+    float: right;
+    margin-right: 20px;
+}
+.vijay1{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+
+
+
